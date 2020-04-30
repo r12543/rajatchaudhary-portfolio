@@ -25,13 +25,10 @@ export default class Header extends Component {
               <h3>I'm a <span>{data.role}</span>. Let's <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
               <hr />
               <ul className="social">
-                <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                <li><a href="#"><i className="fa fa-google-plus" /></a></li>
-                <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-                <li><a href="#"><i className="fa fa-instagram" /></a></li>
-                <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-                <li><a href="#"><i className="fa fa-skype" /></a></li>
+                <li><a href="https://www.facebook.com/r12543"><i className="fa fa-facebook" /></a></li>
+                <li><a href="https://twitter.com/rajatch8"><i className="fa fa-twitter" /></a></li>
+                <li><a href="https://www.linkedin.com/in/rajat-chaudhary-80/"><i className="fa fa-linkedin" /></a></li>
+                <li><a href="https://www.instagram.com/lost_bohemian/"><i className="fa fa-instagram" /></a></li>
               </ul>
             </div>
           </div>

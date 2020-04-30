@@ -15,26 +15,16 @@ export default class Header extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>University of Life</h3>
-                <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                </p>
+                <h3>Indian Institue of Technology, Kanpur</h3>
+                <p className="info">B. Tech. in Computer Science and Engineering<span>•</span> <em className="date">2012 - 1016</em></p>
+                <p></p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>School of Cool Designers</h3>
-                <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March 2003</em></p>
-                <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                </p>
+                <h3>Jawahar Navodaya Vidyalaya, Saharanpur</h3>
+                <p className="info">Secondary and Senior Secondary Education<span>•</span> <em className="date">2004 - 2011</em></p>
+                <p></p>
               </div>
             </div> {/* item end */}
           </div> {/* main-col end */}
@@ -48,25 +38,48 @@ export default class Header extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>Awesome Design Studio</h3>
-                <p className="info">Senior UX Designer <span>•</span> <em className="date">March 2010 - Present</em></p>
+                <h3>Konigle Pte Ltd</h3>
+                <p className="info">Senior Software Engineer <span>•</span> <em className="date">March 2020 - Present</em></p>
+                <p></p>
+              </div>
+            </div> {/* item end */}
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>Instart</h3>
+                <p className="info">Member Of Technical Staff <span>•</span> <em className="date">Jun 2019 – Feb 2020</em></p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                Worked on the enhancement of NGINX plugins (in C++) which helps in web 
+                performance by optimizing HTML/CSS/JS contents. Setup Web 
+                Platform Tests (WPTs) infrastructure to strengthen Instart’s 
+                Javascript plugin which runs in the browser. Deployed the test 
+                runner in docker containers with Jenkins CI/CD.
                 </p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Super Cool Studio</h3>
-                <p className="info">UX Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
+                <h3>Aozora</h3>
+                <p className="info">Engineering Lead <span>•</span> <em className="date">Feb 2019 – May 2019</em></p>
                 <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                –  Build a customer data platform from scratch with complete ETL processes <br></br>
+                –  Design and create the Big Data Architecture with Data ingestion layer (to extract and collect the data from different sources like websites, mobile apps, third party API continuously), Data Processing and Storage Layer(Kafka and Elasticsearch), and Data Consumption Layer (RESTful APIs with Express.js)<br></br>
+                –  Maintain a Kafka Cluster, ElasticSearch Cluster, and Node.js applications on DIL and DCL<br></br>
+                –  Deploy all the clusters and APIs on Google Cloud Platform<br></br>
+                – Build the automation python scripts for email marketing for the client using IBM Watson APIs<br></br>
+                </p>
+              </div>
+            </div> {/* item end */}
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>Innoplexus</h3>
+                <p className="info">Associate Data Engineer <span>•</span> <em className="date">June 2016 – Feb 2019</em></p>
+                <p>
+                – Build a comprehensive and scalable Data and Analytics as a Service for Life Sciences<br></br>
+                – RESTful APIs development with hybrid microservices Architecture using Node.js (Routing Layer), gRPC/thrift (communication Layer), Python/Node.js/Java (Service Layer) and Elasticsearch /ArangoDB /MongoDB /MySQL (DB Layer)<br></br>
+                – Implement Search-As-You-Type functionality using Elasticsearch completion suggester. It suggests the name of the entity on the basis of name and properties of the entity<br></br>
+                – Build DApps and write smart contracts on EOS and Ethereum blockchains using C++ and Solidity<br></br>
+                – Setup the end to end automation pipeline for crawling, aggregating, and modelling the data and indexing it in Elasticsearch<br></br>
+                – Worked in Agile environment with proper use of JIRA and sprint plans. Followed TDD, MR, code review process. Was part of code reviewing team. Mentor junior developers.<br></br>
                 </p>
               </div>
             </div> {/* item end */}
@@ -79,12 +92,22 @@ export default class Header extends Component {
             <h1><span>Skills</span></h1>
           </div>
           <div className="nine columns main-col">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt.
+            <p>
+            <h5>Languages and Frameworks</h5>
+            C, C++, Python, Perl, R, PHP, JavaScript,
+            Node.js, Django, Flask, React.js, GoLang<br></br>
+
+            <h5>Databases</h5>
+
+            MySQL, MongoDB, Sqlite, Redis, Elastic-
+            Search, ArangoDB, PostgreSQL, Kafka<br></br>
+
+            <h5>Tools</h5>
+            MatLab, GNU Octave, LaTex, Rstudio,
+            Python Jupiter, Visual Studio Code, AWS,
+            GCP, Spark, RabbitMQ<br></br>
             </p>
-            <div className="bars">
+            {/* <div className="bars">
               <ul className="skills">
                 <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
                 <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
