@@ -6,29 +6,6 @@ export default class Header extends Component {
       <React.Fragment>
       {/*generated code*/}
       <section id="resume">
-        {/* Education
-      ----------------------------------------------- */}
-        <div className="row education">
-          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
-          </div>
-          <div className="nine columns main-col">
-            <div className="row item">
-              <div className="twelve columns">
-                <h3>Indian Institue of Technology, Kanpur</h3>
-                <p className="info">B. Tech. in Computer Science and Engineering<span>•</span> <em className="date">2012 - 1016</em></p>
-                <p></p>
-              </div>
-            </div> {/* item end */}
-            <div className="row item">
-              <div className="twelve columns">
-                <h3>Jawahar Navodaya Vidyalaya, Saharanpur</h3>
-                <p className="info">Secondary and Senior Secondary Education<span>•</span> <em className="date">2004 - 2011</em></p>
-                <p></p>
-              </div>
-            </div> {/* item end */}
-          </div> {/* main-col end */}
-        </div> {/* End Education */}
         {/* Work
       ----------------------------------------------- */}
         <div className="row work">
@@ -48,17 +25,15 @@ export default class Header extends Component {
                 <h3>Instart</h3>
                 <p className="info">Member Of Technical Staff <span>•</span> <em className="date">Jun 2019 – Feb 2020</em></p>
                 <p>
-                Worked on the enhancement of NGINX plugins (in C++) which helps in web 
-                performance by optimizing HTML/CSS/JS contents. Setup Web 
-                Platform Tests (WPTs) infrastructure to strengthen Instart’s 
-                Javascript plugin which runs in the browser. Deployed the test 
-                runner in docker containers with Jenkins CI/CD.
+                - Worked on the enhancement of NGINX plugins (in C++) which helps in web performance by optimizing HTML/CSS/JS contents. <br></br>
+                - Setup Web Platform Tests (WPTs) infrastructure to strengthen Instart’s Javascript plugin which runs in the browser. Deployed the test 
+                runner in docker containers with Jenkins CI/CD.<br></br>
                 </p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Aozora</h3>
+                <h3>Aozora Inc.</h3>
                 <p className="info">Engineering Lead <span>•</span> <em className="date">Feb 2019 – May 2019</em></p>
                 <p>
                 –  Build a customer data platform from scratch with complete ETL processes <br></br>
@@ -85,6 +60,29 @@ export default class Header extends Component {
             </div> {/* item end */}
           </div> {/* main-col end */}
         </div> {/* End Work */}
+        {/* Education
+      ----------------------------------------------- */}
+        <div className="row education">
+          <div className="three columns header-col">
+            <h1><span>Education</span></h1>
+          </div>
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>Indian Institue of Technology, Kanpur</h3>
+                <p className="info">B. Tech. in Computer Science and Engineering<span>•</span> <em className="date">2012 - 2016</em></p>
+                <p></p>
+              </div>
+            </div> {/* item end */}
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>Jawahar Navodaya Vidyalaya, Saharanpur</h3>
+                <p className="info">Secondary and Senior Secondary Education<span>•</span> <em className="date">2004 - 2011</em></p>
+                <p></p>
+              </div>
+            </div> {/* item end */}
+          </div> {/* main-col end */}
+        </div> {/* End Education */}
         {/* Skills
       ----------------------------------------------- */}
         <div className="row skill">
